@@ -159,3 +159,123 @@
 2025-10-22 11:18:54,268 | INFO | Iniciando Email Server en http://127.0.0.1:5001
 2025-10-22 11:18:54,318 | WARNING |  * Debugger is active!
 2025-10-22 11:18:54,327 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 12:00:09,785 | INFO | Logging configurado para Email Server
+2025-10-22 12:00:09,788 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:00:10,735 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2025-10-22 12:00:10,735 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 12:00:10,740 | INFO |  * Restarting with stat
+2025-10-22 12:00:11,559 | INFO | Logging configurado para Email Server
+2025-10-22 12:00:11,561 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:00:11,617 | WARNING |  * Debugger is active!
+2025-10-22 12:00:11,623 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:43:31,866 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\controller\\__init__.py', reloading
+2025-10-22 12:43:31,992 | INFO |  * Restarting with stat
+2025-10-22 12:43:32,860 | INFO | Logging configurado para Email Server
+2025-10-22 12:43:32,863 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:43:32,915 | WARNING |  * Debugger is active!
+2025-10-22 12:43:32,920 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:43:33,045 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\data\\__init__.py', reloading
+2025-10-22 12:43:33,145 | INFO |  * Restarting with stat
+2025-10-22 12:43:34,077 | INFO | Logging configurado para Email Server
+2025-10-22 12:43:34,079 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:43:34,123 | WARNING |  * Debugger is active!
+2025-10-22 12:43:34,130 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:43:56,766 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\config\\settings.py', reloading
+2025-10-22 12:43:56,889 | INFO |  * Restarting with stat
+2025-10-22 12:43:57,718 | INFO | Logging configurado para Email Server
+2025-10-22 12:43:57,720 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:43:57,767 | WARNING |  * Debugger is active!
+2025-10-22 12:43:57,773 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:44:13,924 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\connection\\gmail_connection.py', reloading
+2025-10-22 12:44:14,007 | INFO |  * Restarting with stat
+2025-10-22 12:44:14,874 | INFO | Logging configurado para Email Server
+2025-10-22 12:44:14,877 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:44:14,927 | WARNING |  * Debugger is active!
+2025-10-22 12:44:14,932 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:44:26,875 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\interfaces\\email_interfaces.py', reloading
+2025-10-22 12:44:26,959 | INFO |  * Restarting with stat
+2025-10-22 12:44:27,916 | INFO | Logging configurado para Email Server
+2025-10-22 12:44:27,917 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:44:27,965 | WARNING |  * Debugger is active!
+2025-10-22 12:44:27,971 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:44:42,030 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\dto\\email_dto.py', reloading
+2025-10-22 12:44:42,163 | INFO |  * Restarting with stat
+2025-10-22 12:44:42,931 | INFO | Logging configurado para Email Server
+2025-10-22 12:44:42,933 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:44:42,979 | WARNING |  * Debugger is active!
+2025-10-22 12:44:42,985 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:44:45,240 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\dto\\email_dto.py', reloading
+2025-10-22 12:44:45,335 | INFO |  * Restarting with stat
+2025-10-22 12:44:46,123 | INFO | Logging configurado para Email Server
+2025-10-22 12:44:46,125 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:44:46,175 | WARNING |  * Debugger is active!
+2025-10-22 12:44:46,181 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:45:04,501 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\services\\gmail_service.py', reloading
+2025-10-22 12:45:04,591 | INFO |  * Restarting with stat
+2025-10-22 12:45:05,340 | INFO | Logging configurado para Email Server
+2025-10-22 12:45:05,341 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:45:05,391 | WARNING |  * Debugger is active!
+2025-10-22 12:45:05,397 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:45:12,982 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\services\\storage_service.py', reloading
+2025-10-22 12:45:13,069 | INFO |  * Restarting with stat
+2025-10-22 12:45:13,801 | INFO | Logging configurado para Email Server
+2025-10-22 12:45:13,804 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:45:13,847 | WARNING |  * Debugger is active!
+2025-10-22 12:45:13,853 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:45:26,801 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\services\\send_email_service.py', reloading
+2025-10-22 12:45:26,893 | INFO |  * Restarting with stat
+2025-10-22 12:45:27,640 | INFO | Logging configurado para Email Server
+2025-10-22 12:45:27,643 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:45:27,698 | WARNING |  * Debugger is active!
+2025-10-22 12:45:27,706 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:45:40,715 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\src\\controller\\email_controller.py', reloading
+2025-10-22 12:45:40,819 | INFO |  * Restarting with stat
+2025-10-22 12:45:41,700 | INFO | Logging configurado para Email Server
+2025-10-22 12:45:41,703 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:45:41,755 | WARNING |  * Debugger is active!
+2025-10-22 12:45:41,762 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:45:50,427 | INFO |  * Detected change in 'D:\\Ano_2025_UCR\\InfoAplicada\\Proyecto\\Email-Server-Python\\main.py', reloading
+2025-10-22 12:45:50,519 | INFO |  * Restarting with stat
+2025-10-22 12:45:51,882 | INFO | Logging configurado para Email Server
+2025-10-22 12:45:51,885 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:45:51,942 | WARNING |  * Debugger is active!
+2025-10-22 12:45:51,948 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:47:12,183 | INFO | Logging configurado para Email Server
+2025-10-22 12:47:12,185 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:47:13,135 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2025-10-22 12:47:13,136 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 12:47:13,137 | INFO |  * Restarting with stat
+2025-10-22 12:47:14,106 | INFO | Logging configurado para Email Server
+2025-10-22 12:47:14,110 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:47:14,165 | WARNING |  * Debugger is active!
+2025-10-22 12:47:14,171 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:49:20,783 | INFO | Logging configurado para Email Server
+2025-10-22 12:49:20,786 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:49:21,747 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2025-10-22 12:49:21,748 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 12:49:21,750 | INFO |  * Restarting with stat
+2025-10-22 12:49:22,624 | INFO | Logging configurado para Email Server
+2025-10-22 12:49:22,627 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:49:22,674 | WARNING |  * Debugger is active!
+2025-10-22 12:49:22,680 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:49:50,069 | INFO | Logging configurado para Email Server
+2025-10-22 12:49:50,071 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:49:51,020 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2025-10-22 12:49:51,020 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 12:49:51,022 | INFO |  * Restarting with stat
+2025-10-22 12:49:51,854 | INFO | Logging configurado para Email Server
+2025-10-22 12:49:51,857 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 12:49:51,938 | WARNING |  * Debugger is active!
+2025-10-22 12:49:51,947 | INFO |  * Debugger PIN: 143-548-518
