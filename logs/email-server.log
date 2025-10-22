@@ -1,0 +1,161 @@
+2025-10-22 03:21:23,312 | INFO | Logging configurado para Email Server
+2025-10-22 03:21:24,662 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.18:5001
+2025-10-22 03:21:24,663 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 03:21:24,665 | INFO |  * Restarting with stat
+2025-10-22 03:21:26,002 | INFO | Logging configurado para Email Server
+2025-10-22 03:21:26,047 | WARNING |  * Debugger is active!
+2025-10-22 03:21:26,058 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 03:45:13,445 | INFO | Logging configurado para Email Server
+2025-10-22 03:45:14,791 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.18:5001
+2025-10-22 03:45:14,791 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 03:45:14,794 | INFO |  * Restarting with stat
+2025-10-22 03:45:15,546 | INFO | Logging configurado para Email Server
+2025-10-22 03:45:15,568 | WARNING |  * Debugger is active!
+2025-10-22 03:45:15,577 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 07:14:01,566 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\service_storage.py', reloading
+2025-10-22 07:14:02,302 | INFO |  * Restarting with stat
+2025-10-22 07:14:05,592 | INFO | Logging configurado para Email Server
+2025-10-22 07:14:05,732 | WARNING |  * Debugger is active!
+2025-10-22 07:14:05,762 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 07:21:28,834 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\service_email.py', reloading
+2025-10-22 07:21:29,266 | INFO |  * Restarting with stat
+2025-10-22 07:21:30,783 | INFO | Logging configurado para Email Server
+2025-10-22 07:21:30,850 | WARNING |  * Debugger is active!
+2025-10-22 07:21:30,861 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 07:22:24,899 | INFO | Logging configurado para Email Server
+2025-10-22 07:22:26,252 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 07:22:26,254 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 07:22:26,260 | INFO |  * Restarting with stat
+2025-10-22 07:22:27,540 | INFO | Logging configurado para Email Server
+2025-10-22 07:22:27,633 | WARNING |  * Debugger is active!
+2025-10-22 07:22:27,651 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:33:30,690 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\Application\\Services\\send_email_service.py', reloading
+2025-10-22 09:33:31,087 | INFO |  * Restarting with stat
+2025-10-22 09:33:32,835 | INFO | Logging configurado para Email Server
+2025-10-22 09:33:32,937 | WARNING |  * Debugger is active!
+2025-10-22 09:33:32,951 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:37:21,918 | INFO | Logging configurado para Email Server
+2025-10-22 09:37:23,242 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 09:37:23,242 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 09:37:23,244 | INFO |  * Restarting with stat
+2025-10-22 09:37:24,027 | INFO | Logging configurado para Email Server
+2025-10-22 09:37:24,059 | WARNING |  * Debugger is active!
+2025-10-22 09:37:24,068 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:40:40,975 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\main.py', reloading
+2025-10-22 09:40:41,292 | INFO |  * Restarting with stat
+2025-10-22 09:42:10,462 | INFO | Logging configurado para Email Server
+2025-10-22 09:42:10,464 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:42:11,795 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 09:42:11,796 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 09:42:11,798 | INFO |  * Restarting with stat
+2025-10-22 09:42:12,463 | INFO | Logging configurado para Email Server
+2025-10-22 09:42:12,465 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:42:12,491 | WARNING |  * Debugger is active!
+2025-10-22 09:42:12,498 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:54:09,156 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\Presentation\\controller.py', reloading
+2025-10-22 09:54:09,469 | INFO |  * Restarting with stat
+2025-10-22 09:54:10,474 | INFO | Logging configurado para Email Server
+2025-10-22 09:54:10,478 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:54:10,519 | WARNING |  * Debugger is active!
+2025-10-22 09:54:10,530 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:57:31,676 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\logging_config.py', reloading
+2025-10-22 09:57:31,790 | INFO |  * Restarting with stat
+2025-10-22 09:57:32,623 | INFO | Logging configurado para Email Server
+2025-10-22 09:57:32,626 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:57:32,651 | WARNING |  * Debugger is active!
+2025-10-22 09:57:32,661 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:58:31,828 | INFO | Logging configurado para Email Server
+2025-10-22 09:58:31,830 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:58:33,140 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 09:58:33,140 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 09:58:33,144 | INFO |  * Restarting with stat
+2025-10-22 09:58:34,261 | INFO | Logging configurado para Email Server
+2025-10-22 09:58:34,266 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:58:34,320 | WARNING |  * Debugger is active!
+2025-10-22 09:58:34,328 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:58:51,403 | INFO | Logging configurado para Email Server
+2025-10-22 09:58:51,409 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:58:52,745 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 09:58:52,746 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 09:58:52,748 | INFO |  * Restarting with stat
+2025-10-22 09:58:53,523 | INFO | Logging configurado para Email Server
+2025-10-22 09:58:53,526 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 09:58:53,562 | WARNING |  * Debugger is active!
+2025-10-22 09:58:53,571 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 09:59:25,843 | INFO | 127.0.0.1 - - [22/Oct/2025 09:59:25] "GET / HTTP/1.1" 200 -
+2025-10-22 09:59:26,296 | INFO | 127.0.0.1 - - [22/Oct/2025 09:59:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 10:07:46,471 | INFO | Logging configurado para Email Server
+2025-10-22 10:07:46,475 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 10:07:47,827 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.44.44.88:5001
+2025-10-22 10:07:47,827 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 10:07:47,829 | INFO |  * Restarting with stat
+2025-10-22 10:07:48,865 | INFO | Logging configurado para Email Server
+2025-10-22 10:07:48,869 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 10:07:48,916 | WARNING |  * Debugger is active!
+2025-10-22 10:07:48,932 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 10:08:07,928 | INFO | 127.0.0.1 - - [22/Oct/2025 10:08:07] "GET / HTTP/1.1" 200 -
+2025-10-22 10:09:52,908 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 10:09:52,913 | INFO | Obteniendo PDF desde Storage Server para ID: 20006
+2025-10-22 10:09:53,103 | ERROR | Error en /send-email-task: Error al obtener PDF (404): {"error":"Recurso no encontrado"}
+
+2025-10-22 10:09:53,107 | INFO | 127.0.0.1 - - [22/Oct/2025 10:09:53] "[35m[1mPOST /send-email-task HTTP/1.1[0m" 500 -
+2025-10-22 10:11:06,743 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 10:11:06,744 | INFO | Obteniendo PDF desde Storage Server para ID: 20006
+2025-10-22 10:11:06,772 | ERROR | Error en /send-email-task: Error al obtener PDF (404): {"error":"Recurso no encontrado"}
+
+2025-10-22 10:11:06,774 | INFO | 127.0.0.1 - - [22/Oct/2025 10:11:06] "[35m[1mPOST /send-email-task HTTP/1.1[0m" 500 -
+2025-10-22 10:13:59,109 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 10:13:59,109 | INFO | Obteniendo PDF desde Storage Server para ID: a2fe5d2f-adcb-4868-b770-351090b5bcfd
+2025-10-22 10:13:59,146 | INFO | PDF obtenido correctamente (122358 bytes)
+2025-10-22 10:13:59,146 | INFO | Enviando correo a anyelith.suarez@ucr.ac.cr con archivo PruebaDeCorreo.pdf
+2025-10-22 10:13:59,168 | INFO | Abriendo flujo OAuth para Gmail...
+2025-10-22 10:14:09,829 | INFO | "GET /?state=9ccxofXqSC1n7FVbRu6xlXXj5K0CdT&code=4/0AVGzR1Cb12ac_PJOrO__Z4aIq0X1x6hFOfphGHqQs4M_Gu9J25lnsGV4LDozr3ma7dSHow&scope=https://www.googleapis.com/auth/gmail.send HTTP/1.1" 200 65
+2025-10-22 10:14:11,073 | INFO | file_cache is only supported with oauth2client<4.0.0
+2025-10-22 10:14:13,113 | INFO | Correo enviado exitosamente. ID del mensaje: 19a0cb310e29cd98
+2025-10-22 10:14:13,114 | INFO | Correo enviado correctamente a anyelith.suarez@ucr.ac.cr
+2025-10-22 10:14:13,116 | INFO | 127.0.0.1 - - [22/Oct/2025 10:14:13] "POST /send-email-task HTTP/1.1" 200 -
+2025-10-22 10:33:33,726 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 10:33:33,732 | INFO | Obteniendo PDF desde Storage Server para ID: a2fe5d2f-adcb-4868-b770-351090b5bcfd
+2025-10-22 10:33:33,868 | INFO | PDF obtenido correctamente (122358 bytes)
+2025-10-22 10:33:33,870 | INFO | Enviando correo a angelithmabel@gmail.com con archivo TopProducts_20251019_224510.pdf
+2025-10-22 10:33:33,930 | INFO | file_cache is only supported with oauth2client<4.0.0
+2025-10-22 10:33:35,987 | INFO | Correo enviado exitosamente. ID del mensaje: 19a0cc4ce07f7a12
+2025-10-22 10:33:35,994 | INFO | Correo enviado correctamente a angelithmabel@gmail.com
+2025-10-22 10:33:35,996 | INFO | 127.0.0.1 - - [22/Oct/2025 10:33:35] "POST /send-email-task HTTP/1.1" 200 -
+2025-10-22 11:01:00,576 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\gmail_api.py', reloading
+2025-10-22 11:01:00,580 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\service_email.py', reloading
+2025-10-22 11:01:01,023 | INFO |  * Restarting with stat
+2025-10-22 11:01:02,727 | INFO | Logging configurado para Email Server
+2025-10-22 11:01:02,733 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 11:01:02,794 | WARNING |  * Debugger is active!
+2025-10-22 11:01:02,809 | INFO |  * Debugger PIN: 413-383-770
+2025-10-22 11:18:52,090 | INFO |  * Detected change in 'C:\\Users\\angel\\Downloads\\INFO APLICA. PROYECTO\\Email-Server-Python\\service_email.py', reloading
+2025-10-22 11:18:52,697 | INFO |  * Restarting with stat
+2025-10-22 11:18:54,263 | INFO | Logging configurado para Email Server
+2025-10-22 11:18:54,268 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 11:18:54,318 | WARNING |  * Debugger is active!
+2025-10-22 11:18:54,327 | INFO |  * Debugger PIN: 413-383-770
