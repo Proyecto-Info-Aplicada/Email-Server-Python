@@ -35,3 +35,6 @@ Thumbs.db
 # === Archivos temporales ===
 *.tmp
 *.bak
+
+# === Archivos de registro ===
+.log
