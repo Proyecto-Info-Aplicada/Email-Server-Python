@@ -18,6 +18,7 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
 │                    Presentation Layer                        │
 │                     (Flask REST API)                         │
 │                   src/controller/                            │
+│                   src/middleware/                            │
 └────────────────────────┬────────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────────┐
@@ -27,6 +28,8 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
 │         - SendEmailService (Orquestador)                     │
 │         - GmailService (Envío de emails)                     │
 │         - StorageService (Obtención de PDFs)                 │
+│         - KafkaProducerService (Logging a Kafka)             │
+│         - RequestLogger (Logger estructurado)                │
 └────────────────────────┬────────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────────┐
@@ -35,6 +38,7 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
 │            src/connection/, src/data/                        │
 │         - Gmail API Connection                               │
 │         - HTTP Requests to Storage Server                    │
+│         - Kafka Producer Connection (opcional)               │
 └──────────────────────────────────────────────────────────────┘
 
       ┌────────────────────────────────────────┐
@@ -43,7 +47,7 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
       │  - src/config/ (Configuration)         │
       │  - src/dto/ (Data Transfer Objects)    │
       │  - src/interfaces/ (Contracts)         │
-      │  - src/domain/ (Domain Models)         │
+      │  - src/middleware/ (Request/Response)  │
       └────────────────────────────────────────┘
 ```
 
@@ -51,25 +55,34 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
 
 ## 🔄 Flujo de Datos
 
-### Flujo de envío de email con PDF
+### Flujo de envío de email con PDF (con Kafka integrado)
 
 ```
 1. Cliente HTTP
    │
    │ POST /send-email-task
    │ {CorrelationId, EmailAddress, ...}
+   │ Headers: X-Correlation-ID (opcional)
    │
    ▼
-2. EmailController (src/controller/email_controller.py)
+2. Correlation Middleware (src/middleware/correlation_middleware.py)
+   │ - Extrae/Genera Correlation ID
+   │ - Almacena en Flask g context
+   │ - Registra request entrante
+   │
+   ▼
+3. EmailController (src/controller/email_controller.py)
    │ - Recibe request HTTP
    │ - Valida JSON
+   │ - Inicia tracking de tiempo
    │
    ▼
-3. SendEmailService (src/services/send_email_service.py)
+4. SendEmailService (src/services/send_email_service.py)
    │ - Crea EmailRequest DTO
    │ - Valida campos obligatorios
+   │ - Registra flujo de validación
    │
-   ├──► 4a. StorageService (src/services/storage_service.py)
+   ├──► 5a. StorageService (src/services/storage_service.py)
    │        │ - Solicita PDF al Storage Server
    │        │ - GET http://storage:5000/pdf-storage/{id}
    │        │
@@ -79,20 +92,37 @@ El proyecto sigue una **arquitectura en capas limpia (Clean Architecture)** con 
    │        ▼ PDF bytes
    │    └─ Retorna PDF en bytes
    │
-   └──► 4b. GmailService (src/services/gmail_service.py)
-            │ - Construye mensaje MIME con PDF adjunto
-            │ - Llama a gmail_connection
+   ├──► 5b. GmailService (src/services/gmail_service.py)
+   │        │ - Construye mensaje MIME con PDF adjunto
+   │        │ - Llama a gmail_connection
+   │        │
+   │        ▼
+   │    6. GmailConnection (src/connection/gmail_connection.py)
+   │        │ - Autentica con OAuth 2.0
+   │        │ - Envía mensaje vía Gmail API
+   │        │
+   │        ▼ API Call
+   │    Gmail API (Google)
+   │        │
+   │        ▼ Email enviado
+   │    Destinatario
+   │
+   └──► 5c. RequestLogger (src/services/request_logger.py)
+            │ - Prepara log estructurado
+            │ - Incluye tiempo de ejecución
+            │ - Incluye flujo de validación
             │
             ▼
-        5. GmailConnection (src/connection/gmail_connection.py)
-            │ - Autentica con OAuth 2.0
-            │ - Envía mensaje vía Gmail API
+        7. KafkaProducerService (src/services/kafka_service.py)
+            │ - Envía mensaje a Kafka
+            │ - Topic: email-server-requests
+            │ - Headers: CorrelationId, LogLevel, Source
             │
-            ▼ API Call
-        Gmail API (Google)
+            ▼ Kafka Message
+        Apache Kafka (opcional)
             │
-            ▼ Email enviado
-        Destinatario
+            ▼ (si falla Kafka)
+        Fallback a Consola/Archivo
 ```
 
 ---

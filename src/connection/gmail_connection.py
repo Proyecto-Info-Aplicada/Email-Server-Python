@@ -14,7 +14,6 @@ from src.config.settings import GMAIL_SCOPES, CREDENTIALS_FILE, TOKEN_FILE
 
 logger = logging.getLogger(__name__)
 
-
 def get_gmail_service():
     """
     Obtiene el servicio de Gmail autenticado mediante OAuth 2.0

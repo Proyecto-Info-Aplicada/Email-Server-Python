@@ -32,10 +32,14 @@ Active Issue: None, ready for development
 AI Enhancement: Session configured with MCP server awareness
 
 Architecture Highlights:
-- [Add key architectural decisions]
-- [Document important patterns or constraints]
-- [Note any special setup requirements]
-- [List relevant MCP servers for this project type]
+- Clean layered architecture: config, connection, controller, dto, interfaces, services, middleware
+- Gmail API integration for email sending
+- Storage Server integration for PDF retrieval
+- Apache Kafka integration (optional) for distributed logging and traceability
+- Correlation ID pattern for end-to-end request tracking
+- Resilient design: works with or without Kafka (automatic fallback)
+- Structured logging with execution time tracking
+- Flask middleware for automatic request/response handling
 
 ---
 
@@ -47,17 +51,24 @@ Critical Discoveries:
 - Session starter template customized for Python Application development
 - MCP server integration enabled for enhanced AI capabilities
 - Session file located in .chatcatalyst folder and added to gitignore
+- Kafka integration adapted from Node.js Message Server pattern to Python/Flask
+- kafka-python-ng chosen for Kafka client (modern fork of kafka-python)
+- Asyncio used for Kafka async operations in Flask synchronous context
+- Flask 'g' context used for storing correlation_id across request lifecycle
 
 Performance Insights:
-- [Add performance-related discoveries]
-- [Document optimization decisions]
-- [Note any MCP server tools that proved particularly useful]
+- Kafka producer uses acks='all' for guaranteed delivery
+- Automatic retry logic (3 retries) for transient failures
+- Connection timeout of 3 seconds prevents blocking on Kafka unavailability
+- Fallback to console/file logging when Kafka is down (zero downtime)
+- Execution time tracking helps identify bottlenecks
 
 Known Constraints:
-- [Document any technical limitations]
-- [Note dependency requirements]
-- [Add environment-specific considerations]
-- [List any MCP server limitations or preferences]
+- Requires Gmail API credentials (credentials.json)
+- Depends on external Storage Server for PDF retrieval
+- Kafka is optional but recommended for production environments
+- Python 3.12+ required for latest features
+- Async operations use asyncio.run() due to Flask sync nature
 
 ---
 
@@ -79,6 +90,14 @@ Date | Achievement
 2025-10-22 | Updated all imports and verified server runs successfully with new structure
 2025-10-22 | Created comprehensive ARCHITECTURE.md with diagrams and technical documentation
 2025-10-22 | Generated Postman Collection JSON with all endpoints and examples ready to import
+2025-11-19 | ✅ Integrated Apache Kafka for distributed logging and request traceability
+2025-11-19 | Created kafka_service.py with optional connection and automatic fallback
+2025-11-19 | Implemented request_logger.py for structured logging to Kafka
+2025-11-19 | Added correlation_middleware.py for automatic Correlation ID handling
+2025-11-19 | Updated controller and service with Kafka logging integration
+2025-11-19 | Added execution time tracking and detailed validation flow logging
+2025-11-19 | Created comprehensive Kafka documentation (KAFKA_INTEGRATION.md)
+2025-11-19 | Server now works with or without Kafka - fully resilient implementation
 
 ---
 

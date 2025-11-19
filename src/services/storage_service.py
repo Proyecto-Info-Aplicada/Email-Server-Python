@@ -6,7 +6,6 @@ import requests
 from src.config.settings import STORAGE_URL, TIMEOUT_SECONDS
 from src.interfaces.email_interfaces import IPdfRetriever
 
-
 class StorageService(IPdfRetriever):
     """
     Servicio para obtener archivos PDF desde el Storage Server

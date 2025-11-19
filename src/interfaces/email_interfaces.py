@@ -3,7 +3,6 @@ Interfaces del proyecto
 """
 from abc import ABC, abstractmethod
 
-
 class IEmailSender(ABC):
     """
     Interfaz para servicios de envío de email

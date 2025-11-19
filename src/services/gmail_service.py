@@ -8,7 +8,6 @@ from email.mime.application import MIMEApplication
 from src.connection.gmail_connection import send_with_gmail_api
 from src.interfaces.email_interfaces import IEmailSender
 
-
 class GmailService(IEmailSender):
     """
     Servicio para envío de correos mediante Gmail API
