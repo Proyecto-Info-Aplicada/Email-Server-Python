@@ -279,3 +279,52 @@
 2025-10-22 12:49:51,857 | INFO | Iniciando Email Server en http://127.0.0.1:5001
 2025-10-22 12:49:51,938 | WARNING |  * Debugger is active!
 2025-10-22 12:49:51,947 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 12:53:17,060 | INFO | 127.0.0.1 - - [22/Oct/2025 12:53:17] "GET / HTTP/1.1" 200 -
+2025-10-22 12:53:21,019 | INFO | 127.0.0.1 - - [22/Oct/2025 12:53:21] "GET /health HTTP/1.1" 200 -
+2025-10-22 12:53:41,712 | INFO | Recibido POST en /send-email-task
+2025-10-22 12:53:41,712 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 12:53:41,713 | INFO | Obteniendo PDF desde Storage Server para ID: abc123-def456-ghi789
+2025-10-22 12:53:41,713 | INFO | [abc123-def456-ghi789] Solicitando PDF desde http://127.0.0.1:5000/pdf-storage/abc123-def456-ghi789
+2025-10-22 12:53:43,721 | ERROR | [abc123-def456-ghi789] Error al comunicarse con Storage Server: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /pdf-storage/abc123-def456-ghi789 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF2266E030>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-10-22 12:53:43,722 | ERROR | Error en /send-email-task: Error al comunicarse con Storage Server: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /pdf-storage/abc123-def456-ghi789 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF2266E030>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-10-22 12:53:43,722 | INFO | 127.0.0.1 - - [22/Oct/2025 12:53:43] "[35m[1mPOST /send-email-task HTTP/1.1[0m" 500 -
+2025-10-22 13:48:25,097 | INFO | Logging configurado para Email Server
+2025-10-22 13:48:25,099 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 13:48:26,060 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2025-10-22 13:48:26,060 | INFO | [33mPress CTRL+C to quit[0m
+2025-10-22 13:48:26,062 | INFO |  * Restarting with stat
+2025-10-22 13:48:26,778 | INFO | Logging configurado para Email Server
+2025-10-22 13:48:26,780 | INFO | Iniciando Email Server en http://127.0.0.1:5001
+2025-10-22 13:48:26,825 | WARNING |  * Debugger is active!
+2025-10-22 13:48:26,832 | INFO |  * Debugger PIN: 143-548-518
+2025-10-22 13:51:16,819 | INFO | Recibido POST en /send-email-task
+2025-10-22 13:51:16,819 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 13:51:16,819 | INFO | Obteniendo PDF desde Storage Server para ID: 20016
+2025-10-22 13:51:16,819 | INFO | [20016] Solicitando PDF desde http://127.0.0.1:5000/pdf-storage/20016
+2025-10-22 13:51:16,827 | INFO | [20016] PDF recuperado correctamente (138021 bytes)
+2025-10-22 13:51:16,828 | INFO | PDF obtenido correctamente (138021 bytes)
+2025-10-22 13:51:16,828 | INFO | Enviando correo a britany.villalobos@ucr.ac.cr con archivo TopProducts_20251022_135016.pdf
+2025-10-22 13:51:16,831 | INFO | Enviando correo a britany.villalobos@ucr.ac.cr con adjunto 'TopProducts_20251022_135016.pdf'
+2025-10-22 13:51:17,476 | INFO | file_cache is only supported with oauth2client<4.0.0
+2025-10-22 13:51:19,011 | INFO | Correo enviado exitosamente. ID del mensaje: 19a0d754907c9541
+2025-10-22 13:51:19,011 | INFO | Correo enviado exitosamente a britany.villalobos@ucr.ac.cr
+2025-10-22 13:51:19,011 | INFO | Correo enviado correctamente a britany.villalobos@ucr.ac.cr
+2025-10-22 13:51:19,012 | INFO | Resultado del envío: {'status': 'success', 'message': 'Correo enviado correctamente a britany.villalobos@ucr.ac.cr'}
+2025-10-22 13:51:19,015 | INFO | 127.0.0.1 - - [22/Oct/2025 13:51:19] "POST /send-email-task HTTP/1.1" 200 -
+2025-10-22 13:53:16,841 | INFO | Recibido POST en /send-email-task
+2025-10-22 13:53:16,842 | INFO | Iniciando envío de correo con PDF adjunto...
+2025-10-22 13:53:16,842 | INFO | Obteniendo PDF desde Storage Server para ID: 20016
+2025-10-22 13:53:16,842 | INFO | [20016] Solicitando PDF desde http://127.0.0.1:5000/pdf-storage/20016
+2025-10-22 13:53:16,857 | INFO | [20016] PDF recuperado correctamente (138021 bytes)
+2025-10-22 13:53:16,858 | INFO | PDF obtenido correctamente (138021 bytes)
+2025-10-22 13:53:16,858 | INFO | Enviando correo a britany.villalobos@ucr.ac.cr con archivo TopProducts_20251022_135214.pdf
+2025-10-22 13:53:16,863 | INFO | Enviando correo a britany.villalobos@ucr.ac.cr con adjunto 'TopProducts_20251022_135214.pdf'
+2025-10-22 13:53:16,878 | INFO | file_cache is only supported with oauth2client<4.0.0
+2025-10-22 13:53:18,212 | INFO | Correo enviado exitosamente. ID del mensaje: 19a0d771a1e2d85b
+2025-10-22 13:53:18,212 | INFO | Correo enviado exitosamente a britany.villalobos@ucr.ac.cr
+2025-10-22 13:53:18,213 | INFO | Correo enviado correctamente a britany.villalobos@ucr.ac.cr
+2025-10-22 13:53:18,213 | INFO | Resultado del envío: {'status': 'success', 'message': 'Correo enviado correctamente a britany.villalobos@ucr.ac.cr'}
+2025-10-22 13:53:18,213 | INFO | 127.0.0.1 - - [22/Oct/2025 13:53:18] "POST /send-email-task HTTP/1.1" 200 -
